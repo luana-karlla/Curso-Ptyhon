@@ -1,5 +1,7 @@
-frase = input('Digite uma frase: ')
-print(frase.count('A'))
-print(frase.find('A'))
-print(frase.startswith('A'))
-print(frase.endswith('A'))
+frase = str(input('Digite uma frase: ')).strip().upper()
+print(f'A letra A apareceu {frase.count("A")} vezes')
+print(f'A letra A apareceu na posicao: {frase.find("A")+1}')
+print((f'A ultima letra A apareceu na posicao: {frase.rfind("A")+1}'))
+
+
+

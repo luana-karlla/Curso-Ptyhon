@@ -1,4 +1,4 @@
-nome = input('Digite um nome completo: ')
+nome = str(input('Digite um nome completo: ')).strip()
 n = nome.split()
 
 print(f'Primeiro: {n[0]}')
