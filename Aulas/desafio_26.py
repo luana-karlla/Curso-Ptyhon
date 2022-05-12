@@ -1,0 +1,5 @@
+frase = input('Digite uma frase: ')
+print(frase.count('A'))
+print(frase.find('A'))
+print(frase.startswith('A'))
+print(frase.endswith('A'))
