@@ -5,5 +5,5 @@ elif nome == 'Joao' or nome == 'Pedro' or nome == 'Julia':
     print('\033[31;40m Seu nome é bem popular no Brasil \033[m')
 elif nome in 'Anna Sandra Maria':
     print('\033[4;31;44m Belo nome feminino \033[m')
-    
+
 print(f'\033[31;40m Tenha um bom dia, {nome} \033[m')
